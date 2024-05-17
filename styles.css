@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #333; /* Dark background color */
     overflow: hidden;
 }
 
@@ -40,16 +40,21 @@ nav ul {
 
 nav ul li {
     display: inline;
+    margin-right: 20px; /* Add right margin to space out menu items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last menu item */
 }
 
 nav ul li a {
     display: inline-block;
-    color: white;
+    color: white; /* Text color */
     text-align: center;
-    padding: 14px 20px;
+    padding: 10px 20px; /* Adjust padding as needed */
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #111;
+    background-color: #111; /* Darker background color on hover */
 }

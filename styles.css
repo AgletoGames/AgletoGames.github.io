@@ -65,9 +65,15 @@ nav ul li a:hover {
 .main-content {
     background-color: white; /* Set background color */
     padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center align content */
 }
 
 /* Projects Section */
+.project h2,
+.team h2 {
+    margin-bottom: 20px; /* Add space below the section headings */
+}
+
 .project {
     display: flex; /* Use flexbox */
     flex-direction: row; /* Arrange items in a row (horizontal) */
@@ -80,33 +86,4 @@ nav ul li a:hover {
     flex: 0 1 30%; /* Each item takes up 30% of the container width */
     margin: 10px; /* Add margin between items */
     text-align: center; /* Center align text */
-}
-
-.project-item img {
-    max-width: 100%; /* Ensure images don't exceed their container */
-}
-
-/* Team Section */
-.team-member {
-    display: flex; /* Use flexbox */
-    justify-content: space-around; /* Distribute items evenly along the main axis */
-    flex-wrap: wrap; /* Wrap items to the next line if necessary */
-}
-
-.team-member-item {
-    flex: 1; /* Each item takes up equal space */
-    margin: 10px; /* Add margin between items */
-    text-align: center; /* Center align text */
-}
-
-.team-member-item img {
-    max-width: 100%; /* Ensure images don't exceed their container */
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
 }

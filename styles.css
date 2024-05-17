@@ -75,31 +75,31 @@ main p {
 }
 
 .project {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
     margin-bottom: 30px;
 }
 
 .project img {
-    display: block;
-    margin: 0 auto 10px; /* Center images horizontally */
-    max-width: 100%; /* Ensure images don't exceed container width */
+    flex: 1; /* Equal width for each image */
+    margin: 0 10px; /* Add space between images */
+    max-width: calc(33.33% - 20px); /* Set maximum width for each image */
 }
 
 .team-member {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
     text-align: center;
     margin-bottom: 30px;
 }
 
 .team-member img {
-    border-radius: 50%; /* Make images circular */
-    margin-bottom: 10px;
-    display: inline-block;
+    flex: 1; /* Equal width for each image */
+    margin: 0 10px; /* Add space between images */
+    max-width: calc(33.33% - 20px); /* Set maximum width for each image */
 }
 
 .team-member p {
+    flex: 1; /* Equal width for each text */
     margin: 0;
-}
-
-/* Footer Styling */
-footer {
-    text-align: center;
 }

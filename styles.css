@@ -81,6 +81,7 @@ main p {
 .project img {
     display: block;
     margin: 0 auto 10px; /* Center images horizontally */
+    max-width: 100%; /* Ensure images don't exceed container width */
 }
 
 .team-member {
@@ -101,4 +102,4 @@ main p {
 /* Footer Styling */
 footer {
     text-align: center;
-   
+}

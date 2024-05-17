@@ -40,7 +40,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px; /* Add right margin to space out menu items */
+    margin-right: 2vw; /* Add margin between tabs (2% of viewport width) */
 }
 
 nav ul li:last-child {
@@ -53,9 +53,8 @@ nav ul li a {
     text-align: center;
     padding: 10px 20px; /* Adjust padding as needed */
     text-decoration: none;
-    font-size: 50px; /* Increase font size */
+    font-size: 2vw; /* Responsive font size (2% of viewport width) */
 }
-
 
 nav ul li a:hover {
     background-color: #111; /* Darker background color on hover */

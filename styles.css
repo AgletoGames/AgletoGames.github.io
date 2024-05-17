@@ -24,7 +24,6 @@ header {
 body {
     background-color: lightblue;
     font-family: "Just Another Hand", cursive; /* Apply the font to the entire document */
-    font-size: 50px;
 }
 
 nav {

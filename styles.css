@@ -1,14 +1,9 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
+/* Update this in your styles.css file */
 
 /* Banner/Header Styling */
 header {
     text-align: center;
-    background-color: #ffffff; /* Dark background color */
+    background-color: #ffffff; /* White background color */
 }
 
 #banner {
@@ -17,6 +12,9 @@ header {
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
     background-color: lightblue;
 }
 

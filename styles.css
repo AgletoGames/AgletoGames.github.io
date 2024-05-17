@@ -1,14 +1,8 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-/* Fonts */
+/* Fonts*/
 .just-another-hand-regular {
-    font-family: "Just Another Hand", cursive;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Banner/Header Styling */
@@ -65,25 +59,38 @@ nav ul li a:hover {
 .main-content {
     background-color: white; /* Set background color */
     padding: 20px; /* Add padding for spacing */
-    text-align: center; /* Center align content */
 }
 
-/* Projects Section */
-.project h2,
-.team h2 {
-    margin-bottom: 20px; /* Add space below the section headings */
+.main-content h2 {
+    color: #333; /* Header text color */
+    font-size: 24px; /* Header font size */
+    margin-bottom: 10px; /* Add margin at the bottom */
 }
 
-.project {
-    display: flex; /* Use flexbox */
-    flex-direction: row; /* Arrange items in a row (horizontal) */
-    flex-wrap: wrap; /* Wrap items to the next line if necessary */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+.main-content p {
+    color: #666; /* Paragraph text color */
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+    margin-bottom: 20px; /* Add margin at the bottom */
 }
 
-.project-item {
-    flex: 0 1 30%; /* Each item takes up 30% of the container width */
-    margin: 10px; /* Add margin between items */
-    text-align: center; /* Center align text */
+/* Project and Team Section Styling */
+.project,
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.project-item,
+.team-member-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.project-item img,
+.team-member-item img {
+    width: 100%;
+    height: auto;
 }

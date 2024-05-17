@@ -2,7 +2,13 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Just Another Hand, cursive; /* Apply the font to the entire document */
+    font-family: "Just Another Hand", cursive; /* Apply the font to the entire document */
+}
+/* Fonts*/
+.just-another-hand-regular {
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Banner/Header Styling */

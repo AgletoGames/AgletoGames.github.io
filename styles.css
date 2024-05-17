@@ -40,7 +40,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 2vw; /* Add margin between tabs (2% of viewport width) */
+    margin-right: 10vw; /* Add margin between tabs (2% of viewport width) */
 }
 
 nav ul li:last-child {

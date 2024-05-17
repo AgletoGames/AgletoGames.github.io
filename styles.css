@@ -8,19 +8,12 @@ body, html {
 /* Banner/Header Styling */
 header {
     text-align: center;
-   
     background-color: #ffffff; /* Dark background color */
 }
 
 #banner {
     max-width: 100%;
     height: auto;
-}
-
-header h1 {
-    color: #ffffff; /* White text color */
-    font-size: 36px; /* Increase font size */
-    margin-top: 20px; /* Add margin for spacing */
 }
 
 body {

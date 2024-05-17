@@ -1,4 +1,9 @@
-/* Update this in your styles.css file */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Just Another Hand', cursive; /* Apply the font to the entire document */
+}
 
 /* Banner/Header Styling */
 header {
@@ -12,9 +17,6 @@ header {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
     background-color: lightblue;
 }
 

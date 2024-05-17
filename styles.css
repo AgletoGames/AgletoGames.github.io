@@ -70,12 +70,14 @@ nav ul li a:hover {
 /* Projects Section */
 .project {
     display: flex; /* Use flexbox */
-    justify-content: space-around; /* Distribute items evenly along the main axis */
+    flex-direction: row; /* Arrange items in a row (horizontal) */
     flex-wrap: wrap; /* Wrap items to the next line if necessary */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
 }
 
 .project-item {
-    flex: 1; /* Each item takes up equal space */
+    flex: 0 1 30%; /* Each item takes up 30% of the container width */
     margin: 10px; /* Add margin between items */
     text-align: center; /* Center align text */
 }

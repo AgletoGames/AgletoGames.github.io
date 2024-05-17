@@ -59,3 +59,22 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #111; /* Darker background color on hover */
 }
+
+/* Main Content Area Styling */
+.main-content {
+    background-color: white; /* Set background color */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.main-content h2 {
+    color: #333; /* Header text color */
+    font-size: 24px; /* Header font size */
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.main-content p {
+    color: #666; /* Paragraph text color */
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.5; /* Adjust line height for better readability */
+    margin-bottom: 20px; /* Add margin at the bottom */
+}

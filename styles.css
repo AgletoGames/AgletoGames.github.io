@@ -74,10 +74,31 @@ main p {
     margin-bottom: 20px; /* Add margin at the bottom */
 }
 
-main ul {
-    list-style-type: disc; /* Use disc bullets for unordered lists */
-    margin-bottom: 20px; /* Add margin at the bottom */
+.project {
+    margin-bottom: 30px;
 }
 
-main li {
-    font-size: 16px; /* List item
+.project img {
+    display: block;
+    margin: 0 auto 10px; /* Center images horizontally */
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%; /* Make images circular */
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.team-member p {
+    margin: 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+   

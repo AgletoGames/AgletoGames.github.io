@@ -152,7 +152,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: #d52349;
+		color: #28BF6C;
 		text-decoration: underline;
 	}
 
@@ -1569,6 +1569,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
+		align-self: center;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;

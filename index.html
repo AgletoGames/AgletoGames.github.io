@@ -24,9 +24,21 @@
             top: 0;
             left: 0;
         }
+        .logo {
+            position: fixed;
+            top: 20px;  /* Adjust this value to move the logo up or down */
+            right: 20px;  /* Adjust this value to move the logo left or right */
+            width: 150px;  /* Adjust the size of the logo */
+            height: auto;  /* Maintain aspect ratio */
+            transform: rotate(-5deg);  /* Slight rotation for sticker effect */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Drop shadow */
+            border-radius: 10px;  /* Rounded corners */
+            z-index: 1000;  /* Ensure logo appears above background */
+        }
     </style>
 </head>
 <body>
     <div class="background"></div>
+    <img src="images/logo.png" alt="Company Logo" class="logo">
 </body>
 </html>
